@@ -21,6 +21,17 @@ return {
         },
         position = 'right',
       },
+      filtered_items = {
+        visible = true, -- Show hidden files
+        hide_dotfiles = false, -- Also show dotfiles
+        hide_gitignored = false,
+      },
+    },
+    close_if_last_window = true,
+    enable_git_status = true,
+    enable_diagnostics = true,
+    window = {
+      position = 'right',
     },
   },
 }
